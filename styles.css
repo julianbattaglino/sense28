@@ -471,6 +471,7 @@ span.lb-number {
 
     .header .logo {
         max-width: 60px;
+        margin-right: 80px;
     }
 
     .header .nav-menu {
