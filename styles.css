@@ -120,7 +120,7 @@ p {
     text-align: justify;
 }
 .title-underline {
-    color: #00afcb;
+    color: #1d5ba2;
     width: 5% !important;
     align-items: center;
     display: block;
@@ -143,7 +143,7 @@ h2.sections-title {
 span.lang {
     font-size: 18px;
     font-weight: 700;
-    font-family: "Adam Medium", Sans-serif !important;
+    font-family: "Adam Bold", Sans-serif !important;
     color: #000 !important;
     padding: 10px 0px 10px 0px;
 }
@@ -151,7 +151,7 @@ span.lang {
 a.lang {
     font-size: 16px;
     font-weight: 700;
-    font-family: "Adam Medium", Sans-serif !important;
+    font-family: "Adam Bold", Sans-serif !important;
     color: #1D5BA2 !important;
     padding-left: 5px;
     padding-right: 5px;
@@ -276,7 +276,7 @@ body.fixed:not(.absolute) {
     padding: 10px 12px;
     font-size: 16px;
     font-weight: 700;
-    font-family: "Adam Medium", Sans-serif !important;
+    font-family: "Adam Bold", Sans-serif !important;
     font-variant: small-caps;
     color: #000;
     text-decoration: none;
@@ -433,6 +433,9 @@ span.lb-number {
 @media (max-width: 767px) {
     html {
         scroll-padding-top: 100px;
+    }
+    p {
+        font-size: 14px;
     }
 
     header .logo {
