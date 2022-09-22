@@ -168,6 +168,10 @@ h2.sections-title {
     margin-right: 0 !important;
     margin-left: 0 !important;
 }
+.container {
+    --bs-gutter-x: 10px !important;
+    --bs-gutter-y: 10px !important;
+}
 
 /* Header */
 span.lang {
@@ -651,11 +655,11 @@ img.arrow-top {
     }
 
     .container {
-        padding: 0 15px !important;
+        padding: 0 20px !important;
     }
 
     .section-container {
-        padding: 50px 5px;
+        padding: 50px 15px;
     }
 
     .grid-container {
