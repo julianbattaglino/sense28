@@ -161,6 +161,14 @@ h2.sections-title {
     padding: 75px 0 0 0;
 }
 
+/* Bootstrap Resets */
+.row {
+    --bs-gutter-x: 10px !important;
+    --bs-gutter-y: 10px !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
 /* Header */
 span.lang {
     font-size: 18px;
@@ -339,7 +347,7 @@ body.fixed:not(.absolute) {
 }
 
 .section-container {
-    padding: 75px 75px;
+    padding: 75px 65px;
 }
 
 .container {
@@ -647,7 +655,7 @@ img.arrow-top {
     }
 
     .section-container {
-        padding: 50px 15px;
+        padding: 50px 5px;
     }
 
     .grid-container {
