@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Sense Edgewater 28 - Building Values</title>
-    <link rel="canonical" href="https://www.senselibertador.com.ar/">
+    <link rel="canonical" href="https://www.sense28.com/">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -30,14 +30,18 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Sense Edgewater 28 - Building Values">
     <meta property="og:description" content="">
-    <meta property="og:url" content="https://www.senselibertador.com.ar/">
-    <meta property="og:site_name" content="Sense Manantiales">
+    <meta property="og:url" content="https://www.sense28.com/">
+    <meta property="og:site_name" content="Sense Edgewater 28">
     <meta property="og:image" content="">
     <!-- Twitter meta tags -->
     <meta name="twitter:title" content="Sense Edgewater 28 - Building Values">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="">
     <meta property="twitter:url" content="#url">
+
+    <!-- Google Recaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 
 
 </head>
@@ -278,9 +282,9 @@
 
                     <ul>
                         <li class="footer-list">
-                            <a href="mailto:ventas@sensemanantiales.com.ar" target="_blank">
+                            <a href="mailto:ventas@sense28.com" target="_blank">
                                 <span><i aria-hidden="true" class="far fa-envelope"></i></span>
-                                <span class="text">ventas@sensemanantiales.com.ar</span>
+                                <span class="text">ventas@sense28.com</span>
                             </a>
                         </li>
                         <li class="footer-list">
@@ -320,7 +324,15 @@
                         <div class="form-group">
                             <textarea class="form-control rounded-0" id="textarea" placeholder="¡Dejanos tu mensaje!"
                                 rows="5"></textarea>
-                            <button type="submit" class="btn-submit">ENVIAR</button>
+                            <button class="btn" type="submit" name="submit" id="submitBtn" disabled>ENVIAR</button>
+                            <!--Callbacks Alerts-->
+                            <div id="verifica" class="alert alert-info" role="alert">Porfavor, verifica que no eres un
+                                robot para habilitar el envio.</div>
+                            <div id="sucess" class="alert alert-success" role="alert" style="display: none;">No eres un
+                                robot!, puedes enviar.</div>
+                            <div class="g-recaptcha" data-expired-callback="recaptchaExpiredCallback"
+                                data-error-callback="recaptchaErrorCallback" data-callback="recaptchaCallback"
+                                data-sitekey="6LctSh8iAAAAAPWa4wh7tMf1n3RNXwi5OyC2_cSk"></div>
                         </div>
 
                     </div>
@@ -333,7 +345,7 @@
     <!-- Back to top floating button -->
     <div id="back-top">
         <a href="#"><img class="arrow-top" src="./assets/images/arrow-back-to-top.png"
-                alt="Sense Manantiales - Back to top"></a>
+                alt="Sense Edgewater 28 - Back to top"></a>
     </div>
 
     <footer>
@@ -351,9 +363,9 @@
                 <h3 class="footer">DATOS DE CONTACTO</h3>
                 <ul>
                     <li class="footer-list">
-                        <a href="mailto:ventas@sensemanantiales.com.ar" target="_blank">
+                        <a href="mailto:ventas@sense28.com" target="_blank">
                             <span><i aria-hidden="true" class="far fa-envelope"></i></span>
-                            <span class="text">ventas@sensemanantiales.com.ar</span>
+                            <span class="text">ventas@sense28.com</span>
                         </a>
                     </li>
                     <li class="footer-list">
