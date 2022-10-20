@@ -76,6 +76,11 @@ function recaptchaCallback() {
     $('#submitBtn').prop('disabled', false);
     $('#verifica').hide();
     $('#sucess').show();
+
+    $('#submitBtnEN').prop('disabled', false);
+    $('#verificaEN').hide();
+    $('#sucessEN').show();
+
 }
 
 function recaptchaExpiredCallback() {
@@ -83,10 +88,19 @@ function recaptchaExpiredCallback() {
     $('#submitBtn').prop('disabled', true);
     grecaptcha.reset();
     $('#sucess').hide();
+
+    $('#submitBtnEN').prop('disabled', true);
+    grecaptcha.reset();
+    $('#sucessEN').hide();
+
 }
 
 function recaptchaErrorCallback() {
     // Resetear recaptcha en caso de error por network connectivity
     $('#submitBtn').prop('disabled', true);
     grecaptcha.reset();
+
+    $('#submitBtnEN').prop('disabled', true);
+    grecaptcha.reset();
+
 }
