@@ -108,6 +108,12 @@ b {
     font-family: "Gotham Bold", Sans-serif;
 }
 
+.marked-text {
+    font-family: "Gotham Black", Sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+}
+
 p {
     font-family: "Gotham Book", Sans-serif;
     font-size: 18px;
@@ -818,6 +824,9 @@ img.arrow-top {
 @media screen and (min-width: 1400px) {
     .text-container {
         padding: 0 350px;
+    }
+    .slider-item img {
+        max-width: 60%;
     }
 }
 
